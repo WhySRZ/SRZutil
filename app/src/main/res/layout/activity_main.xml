@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.yss.com.util.MainActivity">
+
+    <app.yss.com.util.view.ClearEditText
+        android:id="@+id/cl_text"
+        android:hint="不能输入表情，限制5个字"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/bt_toast"
+        android:text="Toast"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/bt_net_work"
+        android:text="网络检查"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/bt_recycler"
+        android:text="分割线recyclerView"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
